@@ -1,24 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-
 <foodlist>
-    <fooditem>
-        <name>piza</name>
-        <cost>$8</cost>
-    </fooditem>
+   <fooditem type="American">
+         <cost>$8</cost>
+            </fooditem>
 
-    <fooditem>
-        <name>steak</name>
-        <cost>$15</cost>
-    </fooditem>
+            <fooditem type="italian">
+                <name>steak</name>
+                <cost>$15</cost>
+            </fooditem>
 
-    <fooditem>
-        <name>chinise</name>
-        <cost>$10</cost>
-    </fooditem>
+            <fooditem type="chaina">
+                <name>chinise</name>
+                <cost>$10</cost>
+            </fooditem>
 
-    <fooditem>
-        <name>biryani</name>
-        <cost>$11</cost>
-    </fooditem>
-</foodlist>
+            <fooditem type="pakistani">
+                <name>biryani</name>
+                <cost>$11</cost>
+            </fooditem>
+        </foodlist>
