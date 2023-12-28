@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<records xmlns:e="http://wwww.google.com./employes" xmlns:s="http://wwww.google.com./staf" xmlns:w="http://wwww.google.com./workers">
+    <e:record>
+        <e:name>haroon</e:name>
+         <e:age>16</e:age>
+         <e:city>karachi</e:city>
+    </e:record>
+     
+    <s:record>
+        <s:name>ramish</s:name>
+         <s:age>36</s:age>
+         <s:city>lahore</s:city>
+    </s:record>
+
+    <w:record>
+        <w:name>habib</w:name>
+         <w:age>26</w:age>
+         <w:city>faisalabad</w:city>
+    </w:record>
+</records>
