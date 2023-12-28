@@ -2,5 +2,27 @@
 
 
 <organization>
+   <e:department xmlns:e="http://wwww.google.com./employes">
+    <e:name>fahad</e:name>
+    <e:age>23</e:age>
+    <e:designation>developer</e:designation>
+    <e:salary>40,000</e:salary>
+</e:department>
+
+
+   <s:department xmlns:s="http://wwww.google.com./staff">
+    <s:name>fahad</s:name>
+    <s:age>23</s:age>
+    <s:designation>engiener</s:designation>
+    <s:salary>30,000</s:salary>
+   </s:department>
+
+   <w:department xmlns:w="http://wwww.google.com./workers">
+    <w:name>rizwan</w:name>
+    <w:age>43</w:age>
+    <w:designation>web developer</w:designation>
+    <w:salary>45,000</w:salary>
+   </w:department>
+
    
 </organization>
