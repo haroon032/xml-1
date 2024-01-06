@@ -12,13 +12,13 @@
                     <tr>
                         <th> Select Prouduct</th>
                         <td>
-                            <select class="form-control" >
-                                <option selected>Select Anyne</option>
+                            <select class="form-control" id="section1" onchange="item1(this.value)">
+                                <option value="0" >Select Anyne</option>
                                 
                               </select>
                         </td>
                         <td>
-                            <select class="form-control" >
+                            <select class="form-control" id="section2" onchange="item2(this.value)">
                                 <option selected>Select Anyone</option>
                                 
                               </select>
@@ -28,36 +28,36 @@
                     <tr>
                         <th> Product Images</th>
                         <td>
-                            <img src="./images/HuaweiNova9-b.jpg" alt="" class="img-fluid">
+                            <img src="./images/HuaweiNova9-b.jpg" alt="" class="img-fluid" id="img1">
                         </td>
                         <td>
-                            <img src="./images/InfinixNote12-b.jpg" alt="" class="img-fluid">
+                            <img src="./images/InfinixNote12-b.jpg" alt="" class="img-fluid" id="img2">
                         </td>
                     </tr>
                     <tr>
                         <th> Product Price</th>
-                        <td>
+                        <td id="price1">
                             500,000
                         </td>
-                        <td>
+                        <td id="price2">
                             100,000
                         </td>
                     </tr>
                     <tr>
                         <th> Product Brand</th>
-                        <td>
+                        <td id="brand1">
                             500,000
                         </td>
-                        <td>
+                        <td id="brand2">
                             100,000
                         </td>
                     </tr>
                     <tr>
                         <th> Product Description</th>
-                        <td>
+                        <td id="desc1">
                             500,000
                         </td>
-                        <td>
+                        <td id="desc2">
                             100,000
                         </td>
                     </tr>
